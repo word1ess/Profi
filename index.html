@@ -1,0 +1,344 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20240409232454">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lg-thumbnail.min.css?_v=20240409232454">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css?_v=20240409232454">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240409232454">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js?_v=20240409232454"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js?_v=20240409232454"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js?_v=20240409232454"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js?_v=20240409232454"></script>
+    <script defer src="js/app.min.js?_v=20240409232454"></script>
+    <title>Главная</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+    <div class="container">
+        <div class="header__row">
+            <a href="index.html" class="header__logo fadeIn wow" data-wow-delay="">
+                <img src="img/svgicons/logo.svg" alt="logo">
+            </a>
+            <div class="header__info">
+                <div class="header__top">
+                    <nav class="header__links">
+                        <a href="#">Студентам</a>
+                        <a href="#">Абитуриентам</a>
+                        <a href="#">Преподавателям</a>
+                        <a href="#">Выпускникам</a>
+                        <a href="#">Пресс-центр</a>
+                    </nav>
+                    <div class="btn header__btn">
+                        <span>Войти</span>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <div class="header__menu">
+                        <div class="header__top mobile">
+                            <nav class="header__links">
+                                <a href="#">Студентам</a>
+                                <a href="#">Абитуриентам</a>
+                                <a href="#">Преподавателям</a>
+                                <a href="#">Выпускникам</a>
+                                <a href="#">Пресс-центр</a>
+                            </nav>
+                            <div class="btn header__btn">
+                                <span>Войти</span>
+                            </div>
+                        </div>
+                        <nav class="header__links">
+                            <a href="#" class="wow fadeInLeft" data-wow-delay="100ms">О нас</a>
+                            <a href="#" class="wow fadeInLeft" data-wow-delay="200ms">Наши цели</a>
+                            <a href="#" class="wow fadeInLeft" data-wow-delay="300ms">Стратегическое значение</a>
+                            <a href="#" class="wow fadeInLeft" data-wow-delay="400ms">Виртуальный тур 360</a>
+                            <a href="#" class="wow fadeInLeft" data-wow-delay="500ms">Контакты</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<svg display="none">
+    <symbol id="tg" viewBox="0 0 20 20">
+        <g>
+            <path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM14.64 6.8C14.49 8.38 13.84 12.22 13.51 13.99C13.37 14.74 13.09 14.99 12.83 15.02C12.25 15.07 11.81 14.64 11.25 14.27C10.37 13.69 9.87 13.33 9.02 12.77C8.03 12.12 8.67 11.76 9.24 11.18C9.39 11.03 11.95 8.7 12 8.49C12.0069 8.45819 12.006 8.42517 11.9973 8.3938C11.9886 8.36244 11.9724 8.33367 11.95 8.31C11.89 8.26 11.81 8.28 11.74 8.29C11.65 8.31 10.25 9.24 7.52 11.08C7.12 11.35 6.76 11.49 6.44 11.48C6.08 11.47 5.4 11.28 4.89 11.11C4.26 10.91 3.77 10.8 3.81 10.45C3.83 10.27 4.08 10.09 4.55 9.9C7.47 8.63 9.41 7.79 10.38 7.39C13.16 6.23 13.73 6.03 14.11 6.03C14.19 6.03 14.38 6.05 14.5 6.15C14.6 6.23 14.63 6.34 14.64 6.42C14.63 6.48 14.65 6.66 14.64 6.8Z"/>
+        </g>
+    </symbol>
+</svg>
+<svg display="none">
+    <symbol id="vk" viewBox="0 0 18 18">
+        <g>
+            <path d="M1.26 1.26C2.38419e-07 2.532 0 4.566 0 8.64V9.36C0 13.428 2.38419e-07 15.462 1.26 16.74C2.532 18 4.566 18 8.64 18H9.36C13.428 18 15.462 18 16.74 16.74C18 15.468 18 13.434 18 9.36V8.64C18 4.572 18 2.538 16.74 1.26C15.468 2.38419e-07 13.434 0 9.36 0H8.64C4.572 0 2.538 2.38419e-07 1.26 1.26ZM3.036 5.478H5.1C5.166 8.91 6.678 10.362 7.878 10.662V5.478H9.816V8.436C10.998 8.31 12.246 6.96 12.666 5.472H14.598C14.4405 6.24228 14.1259 6.9718 13.6737 7.61497C13.2215 8.25814 12.6415 8.80113 11.97 9.21C12.7194 9.58287 13.3813 10.1104 13.9118 10.7579C14.4424 11.4053 14.8297 12.1579 15.048 12.966H12.918C12.462 11.544 11.322 10.44 9.816 10.29V12.966H9.576C5.472 12.966 3.132 10.158 3.036 5.478Z"/>
+        </g>
+    </symbol>
+</svg>
+
+            <main class="content">
+                <section class="intro section">
+                    <div class="container">
+                        <div class="intro__row bg-grey">
+                            <main class="intro__info">
+                                <header class="block__header">
+                                    <h1>
+                                        Колледж
+                                        <br>
+                                        Профессионалитет
+                                    </h1>
+                                    <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                </header>
+                            </main>
+                            <aside class="intro__img">
+                                <img src="img/svgicons/intro/content.svg" alt="intro-content">
+                            </aside>
+                        </div>
+                    </div>
+                </section>
+                <section class="profi section">
+                    <div class="container">
+                        <header class="block-header text-center">
+                            <h2>
+                                Профессионалитет это
+                            </h2>
+                        </header>
+                        <main class="profi__row">
+                            <article class="profi__item">
+                                <div class="profi__img">
+                                    <img src="img/svgicons/items/1.svg" alt="1">
+                                </div>
+                                <h3>
+                                    Сокращенный 
+                                    период обучения
+                                </h3>
+                                <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                            </article>
+                            <article class="profi__item">
+                                <div class="profi__img small">
+                                    <img src="img/svgicons/items/2.svg" alt="2">
+                                </div>
+                                <h3>
+                                    Гарантия 
+                                    трудоустройства
+                                </h3>
+                                <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                            </article>
+                            <article class="profi__item">
+                                <div class="profi__img small">
+                                    <img src="img/svgicons/items/3.svg" alt="3">
+                                </div>
+                                <h3>
+                                    Практическая 
+                                    подготовка
+                                </h3>
+                                <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                            </article>
+                            <article class="profi__item">
+                                <div class="profi__img">
+                                    <img src="img/svgicons/items/4.svg" alt="4">
+                                </div>
+                                <h3>
+                                    Сокращенный 
+                                    период обучения
+                                </h3>
+                                <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                            </article>
+                            <article class="profi__item">
+                                <div class="profi__img small">
+                                    <img src="img/svgicons/items/5.svg" alt="5">
+                                </div>
+                                <h3>
+                                    Сопровождение 
+                                    и наставничество
+                                </h3>
+                                <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                            </article>
+                            <article class="profi__item">
+                                <div class="profi__img">
+                                    <img src="img/svgicons/items/6.svg" alt="6">
+                                </div>
+                                <h3>
+                                    Индивидуальный 
+                                    план обучение
+                                </h3>
+                                <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                            </article>
+                        </main>
+                    </div>
+                </section>
+                <section class="target section">
+                    <div class="container">
+                        <div class="target__row bg-grey">
+                            <aside class="target__img">
+                                <img src="img/svgicons/targets/content.svg" alt="target-content">
+                            </aside>
+                            <main class="target__info">
+                                <header class="block-header">
+                                    <h2>
+                                        Колледж
+                                        <br>
+                                        Профессионалитет
+                                    </h2>
+                                    <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                </header>
+                                <main class="target__slides slides one">
+                                    <div class="target__slide slides__slide">
+                                        Цель или особенность
+                                    </div>
+                                    <div class="target__hidden slides__hidden">
+                                        Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                    </div>
+                                    <div class="target__slide slides__slide">
+                                        Цель или особенность
+                                    </div>
+                                    <div class="target__hidden slides__hidden">
+                                        Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                    </div>
+                                    <div class="target__slide slides__slide">
+                                        Цель или особенность
+                                    </div>
+                                    <div class="target__hidden slides__hidden">
+                                        Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                    </div>
+                                    <div class="target__slide slides__slide">
+                                        Цель или особенность
+                                    </div>
+                                    <div class="target__hidden slides__hidden">
+                                        Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                    </div>
+                                    <div class="target__slide slides__slide">
+                                        Цель или особенность
+                                    </div>
+                                    <div class="target__hidden slides__hidden">
+                                        Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                    </div>
+                                </main>
+                                <a href="#" class="btn">Узнать о колледже больше</a>
+                            </main>
+                        </div>
+                    </div>
+                </section>
+                <section class="strategy section">
+                    <div class="container">
+                        <div class="strategy__row bg-blue">
+                            <header class="block-header white">
+                                <h2>
+                                    Стратегическое
+                                    <br>
+                                    значение
+                                </h2>
+                            </header>
+                            <main class="strategy__slider swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="strategy__info">
+                                            <h3>
+                                                Сокращенный 
+                                                период обучения
+                                            </h3>
+                                            <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                        </div>
+                                        <div class="strategy__img">
+                                            <img src="img/svgicons/items/1.svg" alt="1">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="strategy__info">
+                                            <h3>
+                                                Сокращенный 
+                                                период обучения
+                                            </h3>
+                                            <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                        </div>
+                                        <div class="strategy__img">
+                                            <img src="img/svgicons/items/2.svg" alt="2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev strategy__prev"></div>
+                                <div class="swiper-button-next strategy__next"></div>
+                            </main>
+                        </div>
+                    </div>
+                </section>
+                <section class="qr section">
+                    <div class="container">
+                        <div class="qr__row bg-grey">
+                            <aside class="qr__img">
+                                <img src="img/svgicons/qr/content.svg" alt="qr-content">
+                            </aside>
+                            <main class="qr__info">
+                                <header class="block-header">
+                                    <h2>
+                                        Скаринуй QR-код и присоединяйся 
+                                        к виртуальной экскурсии
+                                    </h2>
+                                    <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                                </header>
+                                <a href="#" class="btn">Узнать о колледже больше</a>
+                            </main>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__item">
+                <nav class="footer__social">
+                    <a href="#">
+                        <img src="img/svgicons/logo-footer.svg" alt="logo-footer">
+                    </a>
+                    <a href="#">
+                        <svg>
+                            <use xlink:href="#vk"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg>
+                            <use xlink:href="#tg"></use>
+                        </svg>
+                    </a>
+                </nav>
+                <p class="white">Государственное бюджетное профессиональное образовательное учреждение Воронежской области "Хреновская школа наездников"</p>
+                <p class="grey">
+                    397740, Воронежская область, Бобровский район, село Слобода, улица Центральная усадьба конного завода, дом 15
+                </p>
+            </div>
+            <div class="footer__item">
+                <nav class="footer__links">
+                    <a href="#">Выпускникам</a>
+                    <a href="#">Карта сайта</a>
+                    <a href="#">Пресс-центр</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Колледж</a>
+                    <a href="#">Медиа</a>
+                    <a href="#">Студентам</a>
+                    <a href="#">Связаться с нами</a>
+                    <a href="#">Абитуриентам</a>
+                    <a href="#">Преподавателям</a>
+                </nav>
+                <p class="grey">
+                    Copyright © 1997–2024 “Профессионалитет”
+                </p>
+            </div>
+            <div class="footer__item">
+                <a href="tel:+7 (473) 506 10-48" class="phone">+7 (473) 506 10-48</a>
+                <a href="mailto:hsn@govvrn.ru" class="mail">hsn@govvrn.ru</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </body>
+</html>
